@@ -6,7 +6,7 @@ public class Factorials {
         String keepGoing = "Y";
         Scanner scan = new Scanner(System.in);
 
-        while (keepGoing.equals("Y")) {
+        while (keepGoing.equals("Y")){
             try {
                 System.out.print("Введите число: ");
                 int val = scan.nextInt();
