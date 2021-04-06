@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Factorials {
 
-    public static void main(String[] args) throws IllegalArgumentException {
+    public static void main(String[] args) {
         String keepGoing = "Y";
         Scanner scan = new Scanner(System.in);
 
