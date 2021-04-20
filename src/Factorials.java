@@ -6,14 +6,10 @@ public class Factorials {
         String keepGoing = "Y";
         Scanner scan = new Scanner(System.in);
 
-        while (keepGoing.equals("Y")){
+        while (keepGoing.equals("Y")) {
             try {
                 System.out.print("Введите число: ");
                 int val = scan.nextInt();
-                if (val < 1)
-                    throw new IllegalArgumentException("Меньше");
-                else if (val > 16)
-                    throw new IllegalArgumentException("Больше");
                 System.out.println(
                         String.format(
                                 "Факториал(\"%d\") = %d",
